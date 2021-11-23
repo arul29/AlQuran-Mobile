@@ -92,7 +92,6 @@ export default function SurahRead({route}) {
   }, []);
 
   const arabicNumbers = number => {
-    console.log(number);
     const arabicNumbers = ['۰', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
     var chars = number.toString().split('');
     for (var i = 0; i < chars.length; i++) {
