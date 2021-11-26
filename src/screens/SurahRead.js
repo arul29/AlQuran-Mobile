@@ -127,8 +127,6 @@ export default function SurahRead({route}) {
               alignSelf: 'center',
               backgroundColor: color[index % color.length],
               width: '100%',
-              //   flexDirection: 'row',
-              //   justifyContent: 'center',
             }}>
             <View style={{flexDirection: 'row', marginTop: w(2)}}>
               <View
